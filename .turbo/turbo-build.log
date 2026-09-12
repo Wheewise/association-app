@@ -1,0 +1,40 @@
+
+> association-app@0.0.0 build
+> next build
+
+   ▲ Next.js 15.5.25
+
+   Creating an optimized production build ...
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (108kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (259kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+ ✓ Compiled successfully in 7.6s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/10) ...
+   Generating static pages (2/10) 
+   Generating static pages (4/10) 
+   Generating static pages (7/10) 
+ ✓ Generating static pages (10/10)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ƒ /                                      126 B         103 kB
+├ ƒ /_not-found                            988 B         104 kB
+├ ○ /apple-icon.png                          0 B            0 B
+├ ƒ /dashboard                           3.33 kB         106 kB
+├ ○ /icon.png                                0 B            0 B
+├ ƒ /login                               3.86 kB         106 kB
+├ ○ /manifest.webmanifest                  126 B         103 kB
+└ ○ /opengraph-image.png                     0 B            0 B
++ First Load JS shared by all             103 kB
+  ├ chunks/18-2c82660ce7c4918d.js        46.4 kB
+  ├ chunks/87c73c54-24122e7b92478d00.js  54.2 kB
+  └ other shared chunks (total)          1.99 kB
+
+
+ƒ Middleware                             93.3 kB
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
